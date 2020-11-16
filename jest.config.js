@@ -3,5 +3,6 @@ module.exports = {
     '<rootDir>/apps/iwi-hospital',
     '<rootDir>/apps/api',
     '<rootDir>/libs/api-interfaces',
+    '<rootDir>/libs/iwi-ui',
   ],
 };
