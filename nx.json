@@ -38,6 +38,9 @@
     },
     "iwi-ui": {
       "tags": []
+    },
+    "iwi-auth": {
+      "tags": ["auth", "ui"]
     }
   }
 }

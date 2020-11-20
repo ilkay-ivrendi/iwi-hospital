@@ -235,6 +235,36 @@
           "style": "scss"
         }
       }
+    },
+    "iwi-auth": {
+      "projectType": "library",
+      "root": "libs/iwi-auth",
+      "sourceRoot": "libs/iwi-auth/src",
+      "prefix": "iwi",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/iwi-auth/tsconfig.lib.json",
+              "libs/iwi-auth/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/iwi-auth/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/iwi-auth/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "cli": {

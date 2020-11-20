@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@iwi/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@iwi/iwi-ui": ["libs/iwi-ui/src/index.ts"]
+      "@iwi/iwi-ui": ["libs/iwi-ui/src/index.ts"],
+      "@iwi/iwi-auth": ["libs/iwi-auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

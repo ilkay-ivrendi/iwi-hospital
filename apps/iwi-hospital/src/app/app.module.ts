@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IwiUiModule } from '@iwi/iwi-ui';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HttpClientModule, BrowserAnimationsModule, IwiUiModule],
+  imports: [BrowserModule, HttpClientModule, BrowserAnimationsModule, IwiUiModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

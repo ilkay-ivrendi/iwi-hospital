@@ -12,6 +12,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { IwiAuthModule } from '@iwi/iwi-auth';
 
 const routes: Routes = [
   { path: '', redirectTo: '/landing', pathMatch: 'full' },
@@ -32,6 +34,8 @@ const routes: Routes = [
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+    FontAwesomeModule,
+    IwiAuthModule,
   ],
   declarations: [NavigationComponent, DashboardComponent],
   exports: [NavigationComponent, RouterModule, DashboardComponent],
